@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--Google font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--header popup-->
+    <div class="sectionPopUp">
+        <p>Sign Up and <b> GET 20% OFF </b>for your first order</p>
+        <p id="headerPop" style="margin-left:10%;cursor: pointer;">X</p>
+    </div>
+
+    <!--navbar-->
+
+    <div class="navbar">
+        <h2>Nostra</h2>
+        <i id="sidebaricon" class="fa-solid fa-bars" style="color:#000000;"></i>
+        <ul class="navbar-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#newArrivalContainer" id="arrivalLink">New Arrival</a></li>
+            <li><a href="#mostwantedcontainer" id="wantedLink">Most Wanted</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+
+
+    <!--Sidenavabar-->
+    <section class="navbarSideMenu">
+        <p id="sideMenuClose" style="margin-left:10%;cursor: pointer;text-align: right;">X</p>
+        <ul class="SideMenuist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#newArrivalContainer" id="arrivalLink">New Arrival</a></li>
+            <li><a href="#mostwantedcontainer">Most Wanted</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </section>
+    <!--colelctions-->
+    <div class="container">
+        <div class="container_collection">
+            <div class="collecton_filter">
+                <div class="filter_occasion">
+                    <h1>Occasion</h1>
+                    <input type="checkbox" id="occasion1" name="occasion" value="summer">
+                    <label for="occasion1"> Summer</label><br><br>
+                    <input type="checkbox" id="occasion2" name="occasion" value="party">
+                    <label for="occasion2">Party</label><br><br>
+                    <input type="checkbox" id="occasion3" name="occasion" value="beach">
+                    <label for="occasion3">Beach</label><br><br>
+
+
+                </div>
+                <br><br>
+                <div class="filter_Colors">
+                    <h1>Colors</h1>
+                    <input type="checkbox" id="color1" name="color" value="red">
+                    <label for="color1"> Red</label><br><br>
+                    <input type="checkbox" id="color2" name="color" value="blue">
+                    <label for="color2">Blue</label><br><br>
+                    <input type="checkbox" id="color3" name="color" value="white">
+                    <label for="color3">White</label><br><br>
+                    <input type="checkbox" id="color4" name="color" value="green">
+                    <label for="color4">Green</label><br><br>
+                    <br><br>
+                </div>
+                <br><br>
+                <div class="filter_Arrivals">
+                    <h1>Arrivals</h1>
+                    <input type="checkbox" id="arrival1" name="aarival" value="new">
+                    <label for="arrival1"> New</label><br><br>
+                    <input type="checkbox" id="arrival2" name="aarival" value="old">
+                    <label for="arrival2">Old</label><br><br>
+                </div>
+
+                <br><br>
+                <!--vertical line-->
+                <div class="vl">
+
+
+                </div>
+            </div>
+
+
+            <div class="collection_section">
+                <div class="collection_section1">
+
+                    <form  class="navbar-search">
+                        <input type="text" id="searchtext" class="searchBorder" placeholder="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </div>
+                <div class="collection_section2" id="searchcontainer">
+                    <div class="images" id="dvimg1"  data-occasion="summer"  data-color="white" data-aarival="New" style="display: block;">
+                        <img src="collections/f1.jpg">
+                        <h3>Floral Summer Shirt</h3>
+                        <p>$220</p>
+                    </div>
+                    <div class="images" id="dvimg2" data-occasion="summer"  data-color="green" data-aarival="New"  style="display: block;">
+                        <img src="collections/f2.jpg">
+                        <h3> Summer Green</h3>
+                        <p>$260</p>
+                    </div>
+                    <div class="images" id="dvimg3" data-occasion="party"  data-color="red" data-aarival="old"   style="display: block;">
+                        <img src="collections/f3.jpg">
+                        <h3>Party Floral Shirt</h3>
+                        <p>$399</p>                
+                        </div>
+                    <div class="images" id="dvimg4"  data-occasion="summer"  data-color="white" data-aarival="old" style="display: block;">
+                        <img src="collections/f4.jpg">
+                        <h3>Floral Summer Shirt</h3>
+                        <p>$399</p>                     
+                      </div>
+                      <div class="images" id="dvimg5" data-occasion="beach"  data-color="blue" data-aarival="new" style="display: block;">
+                        <img src="collections/f5.jpg">
+                        <h3>Beach Shirt</h3>
+                        <p>$579</p>                     
+                      </div>
+                      <div class="images" id="dvimg6"  data-occasion="party"  data-color="red" data-aarival="new" style="display: block;">
+                        <img src="collections/f6.jpg">
+                        <h3>Shirt party Red</h3>
+                        <p>$579</p>                     
+                      </div>
+                      <div class="images" id="dvimg7"  data-occasion="party"  data-color="blue" data-aarival="old"  style="display: block;">
+                        <img src="NewArrivals/f1.jpg">
+                        <h3>Party Floral Shirt</h3>
+                        <p>$399</p>                     
+                      </div>
+                      <div class="images" id="dvimg8"  data-occasion="party"  data-color="red" data-aarival="new"    style="display: block;">
+                        <img src="collections/f3.jpg">
+                        <h3>Shirt party Red</h3>
+                        <p>$579</p>                     
+                      </div>
+                      <div class="images" id="dvimg9" data-occasion="summmer"  data-color="green" data-aarival="old"    style="display: block;">
+                        <img src="collections/f1.jpg">
+                        <h3>Floral Summer Shirt</h3>
+                        <p>$220</p>                     
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <!--footer NewsLetter-->
+        <div class="letterContainer">
+            <div class="letterContainer_section">
+                <h1 style="font-size: 3vw;">Join our News Letter</h1>
+                <p style="font-size: 2vw;">Signup for our email newspaper to get exclusive discounts, updates, and more
+                </p>
+                <input style="border-color: black;" type="text" value="" class="txtOffer">
+                <button type="button">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <!--footerText-->
+        <div class="aboutusContainer">
+            <div class="aboutusContainer_section">
+                <h1 style="font-size: 3vw;">Nostra</h1>
+                <p style="font-size: 2vw;">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below
+                    for those interest</p>
+                <div class="socialmedia">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
+                </div>
+                <p style="font-size: 2vw;">
+                    @ 2023 Nostra.com</p>
+
+            </div>
+        </div>
+        <script src="collection.js"></script>
+</body>
+
+</html>

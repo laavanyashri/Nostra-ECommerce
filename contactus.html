@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--Google font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--navbar-->
+    <div class="navbar">
+        <h2>Nostra</h2>
+        <i id="sidebaricon" class="fa-solid fa-bars" style="color:#000000;"></i>
+        <ul class="navbar-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#newArrivalContainer" id="arrivalLink">New Arrival</a></li>
+            <li><a href="#mostwantedcontainer" id="wantedLink">Most Wanted</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!--Sidenavabar-->
+    <section class="navbarSideMenu">
+        <p id="sideMenuClose" style="margin-left:10%;cursor: pointer;text-align: right;">X</p>
+        <ul class="SideMenuist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#newArrivalContainer" id="arrivalLink">New Arrival</a></li>
+            <li><a href="#mostwantedcontainer">Most Wanted</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </section>
+
+    <!--contacussection-->
+    <div class="contact_container">
+        <div class="contact_containerSection">
+
+            <form id="contactform">
+                <h3>Contact Us</h3>
+                <label for="name">Name:
+                    <input type="textarea" id="txtname" name="name" value="">
+                </label>
+                <label for="email">Email:
+                    <input type="textarea" id="txtemail" name="email" value="">
+                </label>
+                <label for="message">Message:
+                    <input type="textarea" id="txtmessage" name="message" value="">
+                </label>
+                <input type="submit" value="Submit" id="submitcontact">
+            </form>
+        </div>
+    </div>
+    <div class="letterContainer">
+        <div class="letterContainer_section">
+            <h1 style="font-size: 3vw;">Join our News Letter</h1>
+            <p style="font-size: 2vw;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <input style="border-color: black;" type="text" value="" class="txtOffer">
+            <button type="button">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!--footerText-->
+    <div class="aboutusContainer">
+        <div class="aboutusContainer_section">
+            <h1 style="font-size: 3vw;">Nostra</h1>
+            <p style="font-size: 2vw;">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for
+                those interest</p>
+            <div class="socialmedia">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
+            </div>
+            <p style="font-size: 2vw;">
+                @ 2023 Nostra.com</p>
+
+        </div>
+    </div>
+    <script src="notrascript.js"></script>
+</body>
+
+</html>
